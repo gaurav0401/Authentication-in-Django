@@ -4,9 +4,9 @@
 ### 1. Import   "from django.contrib.auth import logout, authenticate, login"   (for  making login and logout in page).
 
 
-## 2. First, authenticate (using the 'authenticate' method) the username and password from values submitted by the user. If username and password are correct then this function will returns the user object , otherwise it will returns None .
+### 2. First, authenticate (using the 'authenticate' method) the username and password from values submitted by the user. If username and password are correct then this function will returns the user object , otherwise it will returns None .
 
-## 3. For login the user
+### 3. For login the user
 
    If the user is not none ( username and password are correct ) then login the user using (login function) and redirect the user to the desired page. Otherwise, redirect the user to the login page again.
  
@@ -26,7 +26,7 @@ Example:
 
 
 
-## 4. For the home page :
+### 4. For the home page :
              
   If the user is anonymous then render the login page to the user. otherwise, render the content template to the user.
 
@@ -37,7 +37,7 @@ Example:
            return render(request , 'login.html')
         return render(request , 'index.html') 
 
-## 5. For logout 
+### 5. For logout 
 
    If user wants to logout from  the page the logout the session using (logout function)
 
