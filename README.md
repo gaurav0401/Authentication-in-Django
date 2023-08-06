@@ -1,7 +1,7 @@
 # Django-Authentication
 
 
-## 1. Import   "from django.contrib.auth import logout, authenticate, login"   (for  making login and logout in page).
+### 1. Import   "from django.contrib.auth import logout, authenticate, login"   (for  making login and logout in page).
 
 
 ## 2. First, authenticate (using the 'authenticate' method) the username and password from values submitted by the user. If username and password are correct then this function will returns the user object , otherwise it will returns None .
